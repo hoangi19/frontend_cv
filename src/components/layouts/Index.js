@@ -4,7 +4,7 @@ import Footer from "./Footer";
 function Index(props) 
 {
     const {content} = props;
-    console.log(content);
+
     return (
         <div className="wrapper-about">
             <div className="row position-relative">

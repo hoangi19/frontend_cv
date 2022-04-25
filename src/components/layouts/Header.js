@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom'
+
 function Header()
 {
     return (
@@ -15,9 +17,9 @@ function Header()
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link" href="/"><span>Home</span></a>
-                        <a className="nav-item nav-link" href="/about"><span>About</span></a>
-                        <a className="nav-item nav-link" href="/contact"><span>Contact me</span></a>
+                        <NavLink className="nav-item nav-link" to="/"><span>Home</span></NavLink>
+                        <NavLink className="nav-item nav-link" to="/about"><span>About</span></NavLink>
+                        <NavLink className="nav-item nav-link" to="/contact"><span>Contact me</span></NavLink>
                     </div>
                 </div>
             </nav>
