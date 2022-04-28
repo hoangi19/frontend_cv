@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Build
-        run: yarn test --watchAll=false
+        run: yarn test --passWithNoTests --watchAll=false
