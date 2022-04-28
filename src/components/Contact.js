@@ -26,14 +26,14 @@ function Contact()
                 <div className="row position-relative">
                     <div className="col-lg-3 col-md-3">
                         <div className="avatar position-absolute">
-                            <img align="right" src="./images/avatar.png" alt="avatar" />
+                            <img align="right" src="./images/avatar.png" alt="avatar" z-index="999" />
                         </div>
                     </div>                
                     <div className="col-lg-7 col-md-7">
                         <Header />
                     </div>      
                 </div>
-                <div className="d-flex p-3 contact-form" style={{backgroundColor: '#434a50'}}>
+                <div className="d-flex p-3 content contact-form">
                     <div className="col-lg-3 col-md-3"></div>
                     <div className="col-lg-7 col-md-7">
                         <h2 className="contact index-header text-white">Contact</h2>

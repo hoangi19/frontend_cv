@@ -48,13 +48,13 @@ function About()
                                 <div className="col-lg-5 col-md-5">
                                     <label className="text-white">Email</label>
                                 </div>
-                                <span>quynhnhi0124@gmail.com</span>
+                                <span><a href="mailto:viethoanghy99@gmail.com">viethoanghy99@gmail.com</a></span>
                             </div>
                             <div className="row d-flex flex-wrap text-white-50">
                                 <div className="col-lg-5 col-md-5">
                                     <label className="text-white">Phone</label>
                                 </div>
-                                <span>0988183310</span>
+                                {/* <span><a href="tel:0988183310">0988183310</a></span> */}
                             </div>
                             <div className="row d-flex flex-wrap text-white-50">
                                 <div className="col-lg-5 col-md-5">

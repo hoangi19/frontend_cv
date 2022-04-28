@@ -16,7 +16,7 @@ function Index(props)
                 <div className="col-lg-7 col-md-7">
                     <Header />
                 </div>                
-                <div className="d-flex p-3" style={{backgroundColor: '#434a50'}}>
+                <div className="d-flex p-3 content">
                     <div className="col-lg-3 col-md-3"></div>
                     <div className="d-block col-lg-7 col-md-7">
                         {content}

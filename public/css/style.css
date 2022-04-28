@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background-1.jpg"), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+    background-image: url("../images/background-2.png"), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
     background-size: cover;
 }
 .wrapper {
@@ -119,4 +119,8 @@ nav span, .name, .get-name-badge, .contact, .user-logo, .wrapper-about label  {
     top: 25%;
     bottom: 25%;
     margin-left: -1rem;
+}
+
+.content {
+    background: rgba(67, 74, 80, 0.5);
 }
