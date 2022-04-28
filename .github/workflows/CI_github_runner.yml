@@ -34,3 +34,5 @@ jobs:
         run: yarn build
       - name: Test
         run: yarn test --passWithNoTests --watchAll=false
+      - name: Reload Nginx
+        run: systemctl reload nginx
