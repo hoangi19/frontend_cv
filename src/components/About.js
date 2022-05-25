@@ -54,7 +54,7 @@ function About()
                                 <div className="col-lg-5 col-md-5">
                                     <label className="text-white">Phone</label>
                                 </div>
-                                {/* <span><a href="tel:0988183310">0988183310</a></span> */}
+                                <span><a href="tel:0988183310">0988183310</a></span>
                             </div>
                             <div className="row d-flex flex-wrap text-white-50">
                                 <div className="col-lg-5 col-md-5">
